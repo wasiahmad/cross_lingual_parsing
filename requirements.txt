@@ -1,0 +1,13 @@
+# Python
+python==3.6
+# PyTorch
+torch==0.4.1
+# Gensim to read word2vec files
+gensim
+# following are required for pytorch-transformers
+# progress bars in model download and training scripts
+tqdm
+# Accessing files from S3 directly.
+boto3
+# Used for downloading models over HTTP
+requests
