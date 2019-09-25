@@ -22,9 +22,8 @@ echo "Current seed is $SEED"
 echo $FILENMAE
 
 PYTHONPATH=$SRC_DIR CUDA_VISIBLE_DEVICES=$RGPU python ${SRC_DIR}/examples/GraphParser.py \
---use_bert False \
---no_word False \
---multi_source True \
+--use_bert True \
+--no_word True \
 --encoder_type 'Transformer' \
 --partitioned False \
 --partition_type 'lexical-delexical' \
