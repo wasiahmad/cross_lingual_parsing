@@ -267,6 +267,8 @@ def read_stacked_data_to_variable(source_path,
                     low = berts['out_positions'][-1]
                     assert (bert_max_length - 2) > low
                     bert_out_positions[i] = berts['out_positions'] + [low] * required_pad
+                else:
+                    bert_out_positions[i] = berts['out_positions']
 
         words = torch.from_numpy(wid_inputs)
         chars = torch.from_numpy(cid_inputs)
