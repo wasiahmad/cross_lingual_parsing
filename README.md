@@ -1,6 +1,6 @@
 ## Cross-lingual Dependency Parsing with Unlabeled Auxiliary Languages
 
-This repo contains the code for the CoNLL 2019 paper: "Cross-lingual Dependency Parsing with Unlabeled Auxiliary Languages". [[arxiv]](https://arxiv.org/abs/1909.09265)[[paper]]()[[bib]]()
+This repo contains the code for the CoNLL 2019 paper: "Cross-lingual Dependency Parsing with Unlabeled Auxiliary Languages". [[arxiv]](https://arxiv.org/abs/1909.09265)[[paper]](https://www.aclweb.org/anthology/K19-1035/)[[bib]](https://www.aclweb.org/anthology/K19-1035.bib)
 
 The source code is build based upon [NeuroNLP2](https://github.com/XuezheMax/NeuroNLP2) and PyTorch-0.4.1. In addition, we use resources from this [repository](https://github.com/uclanlp/CrossLingualDepParser).
 
