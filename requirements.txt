@@ -1,7 +1,7 @@
 # Python
 python==3.6
 # PyTorch
-torch==0.4.1
+torch==2.2.0
 # Gensim to read word2vec files
 gensim
 # following are required for pytorch-transformers
